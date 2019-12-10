@@ -1,0 +1,23 @@
+{
+  "name": "translate-app-wyj",
+  "version": "0.0.2",
+  "main": "dist/main.js",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/node": "^12.12.14"
+  }
+}
